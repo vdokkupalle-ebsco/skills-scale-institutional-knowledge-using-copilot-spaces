@@ -51,15 +51,24 @@ Effective process evolution follows a lightweight cycle:
   > ![Static Badge](https://img.shields.io/badge/-Prompt-text?style=social&logo=github%20copilot)
   >
   > ```prompt
-  > Use the attached issue template
-  > - Identify potential new personas/roles that could be added to the project management processes documentation
-  >   to enhance clarity and accountability.
-  > - Create an issue titled "Adding more personas and roles to the project management processes"
-  >    that outlines the need to expand the defined roles and responsibilities in the project management documentation.
-  > - Make sure the new roles/personas have descriptions of their responsibilities and how they interact with existing roles.
-  > - The issue should detail why this is important, potential personas to add, and how it will improve project outcomes.
-  > - add to the process document `docs/octoacme-roles-and-personas.md`
-  > ```
+   > Use the attached issue template "Add Content to Project Management Process Docs" and create an issue titled:
+   > "Adding more personas and roles to the project management processes"
+   >
+   > Fill the issue with the following details:
+   > - Process document: `docs/octoacme-roles-and-personas.md`
+   > - Summary of New Content:
+   >   - UX Designer: Owns user research, journey mapping, wireframes, and works with PdM/Dev to ensure usability. Interacts primarily with Product Managers for requirements and Developers for implementation handoff.
+   >   - Technical Writer: Ensures that user-facing and technical documentation is kept current and accurate. Collaborates with Developers and QA for technical review.
+   >   - QA Lead: Coordinates test strategies and owns test plan creation, ensures QA coverage across the delivery team, and collaborates closely with Project Managers and Developers.
+   >   - DevOps/Release Engineer: Manages CI/CD pipeline health, deployment automation, and incident readiness. Collaborates with Developers for integration and with Project/Release Managers to coordinate releases.
+   >   - Customer Success/Support: Represents customer feedback and pain points post-release, collaborates with PM/PdM for improvement priorities.
+   > - Why is this update needed? These additions clarify responsibilities at each phase, reduce single points of failure, and support more reliable handoffs between functions. Growing product complexity and team scale require clearer handoffs and responsibility mapping to avoid confusion, bottlenecks, or unowned tasks, and help new hires onboard quicker.
+   > - Suggested Content (optional): include sample descriptions for each suggested persona and their collaboration interface with existing roles.
+   > - Acceptance Criteria:
+   >   - Content aligns with existing process docs
+   >   - Update improves clarity or closes a documented gap
+   >   - Proposed content has been reviewed with stakeholders (if needed)
+   > ```
 
    <details>
    <summary> 📷 Show screenshot of the issue draft</summary>
