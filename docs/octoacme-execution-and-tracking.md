@@ -10,6 +10,11 @@ Guidance for managing day-to-day execution and tracking progress toward project 
 
 ## Workflows
 - Use the project board (e.g., GitHub Projects) with columns: Backlog, Ready, In Progress, In Review, QA, Done
+- Handoff expectations per item:
+  - UX Designer confirms design assets and acceptance notes before In Progress
+  - Developers and QA Lead align test coverage before In Review
+  - Technical Writer drafts user-facing documentation before Done for release-scoped work
+  - Stakeholder Representative confirms communication readiness for launch-critical items
 - Pull Request workflow:
   - Small PRs (<= 400 lines when possible)
   - Include issue link and acceptance criteria in PR description
@@ -38,3 +43,7 @@ Guidance for managing day-to-day execution and tracking progress toward project 
 - [ ] CI configured for tests and lint
 - [ ] Regular demos scheduled
 - [ ] Risk register updated weekly
+- [ ] UX-to-development handoffs tracked on board items
+- [ ] QA Lead sign-off captured for release-candidate scope
+- [ ] Technical documentation updates tracked with delivery work
+- [ ] Stakeholder update checkpoints scheduled for milestone reviews
