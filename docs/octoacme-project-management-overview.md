@@ -16,9 +16,13 @@ Applies to all cross-functional projects that deliver product features, services
 ## Core Roles
 - Project Manager (PM): coordinates delivery, schedules, risk, communications.
 - Product Manager (PdM): defines outcomes, prioritizes backlog, and measures success.
+- UX Designer: drives user experience design and usability alignment.
 - Developers: implement features, collaborate on design and testability.
-- QA/Testing: validate quality and acceptance criteria.
-- Stakeholders: provide inputs and approvals.
+- QA Lead/Testing: defines test strategy and validates quality and acceptance criteria.
+- DevOps Engineer: manages CI/CD, deployment reliability, and operational checks.
+- Release Manager: coordinates cross-functional release readiness and execution.
+- Technical Writer: produces release and product documentation artifacts.
+- Stakeholder Representative: channels stakeholder inputs, readiness, and communications.
 
 ## Key Artifacts
 - Project Charter / One-pager

@@ -16,6 +16,18 @@ Turn an approved initiative into an actionable plan and backlog for delivery.
 5. Identify dependencies and integration points
 6. Create release plan and milestone map
 
+## Example Responsibility Matrix (RACI)
+| Planning Activity | Project Manager | Product Manager | UX Designer | Developers | QA Lead | DevOps Engineer | Stakeholder Representative |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| Kickoff facilitation and timeline setup | A/R | C | C | C | C | C | I |
+| Backlog prioritization and acceptance criteria | C | A/R | C | C | C | I | C |
+| UX discovery and design handoff scope | I | C | A/R | C | C | I | C |
+| Test strategy and quality gate definition | I | C | I | C | A/R | C | I |
+| Release milestone and deployment dependency mapping | A/R | C | I | C | C | R | I |
+| Stakeholder readiness and communication planning | R | C | I | I | I | I | A/R |
+
+RACI key: **R** = Responsible, **A** = Accountable, **C** = Consulted, **I** = Informed.
+
 ## Backlog Item Template
 - Title:
 - Description:
@@ -41,3 +53,7 @@ Turn an approved initiative into an actionable plan and backlog for delivery.
 - [ ] Release timeline and milestones agreed
 - [ ] Definition of Done documented
 - [ ] Initial test plan / QA approach drafted
+- [ ] UX scope and design handoff expectations agreed
+- [ ] Documentation owner assigned for release notes/user updates
+- [ ] DevOps dependencies and environment constraints reviewed
+- [ ] Stakeholder communication owner identified
